@@ -1,0 +1,11 @@
+* unicode-math-input
+
+A trival Emacs package that defines an input method for entering Unicode math characters using LaTeX macros.
+
+Most of the work is done by [[https://github.com/vspinu/math-symbol-lists][math-symbol-lists]], which defines the tables.
+
+** Usage:
+#+BEGIN_SRC lisp
+(set-input-method "unicode-math-input")
+#+END_SRC
+or you can invoke =set-input-method= using =C-x RET C-\=.
