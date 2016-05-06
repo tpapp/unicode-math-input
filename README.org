@@ -11,6 +11,8 @@ Most of the work is done by [[https://github.com/vspinu/math-symbol-lists][math-
 #+END_SRC
 or you can invoke =set-input-method= using =C-x RET C-\=.
 
+Then typing =\rho \equiv \alpha + \phi= would enter =ρ ≡ α + ϕ=, etc.
+
 ** Recognized LaTeX macros
 
 See the variable =math-symbol-list-basic=.
