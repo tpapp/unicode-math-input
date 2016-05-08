@@ -45,4 +45,4 @@
 
 (unicode-math-input--define-rules "unicode-math-input" math-symbol-list-basic)
 
-(provide unicode-math-input)
+(provide 'unicode-math-input)
